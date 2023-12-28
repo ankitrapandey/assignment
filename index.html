@@ -9,11 +9,42 @@
 
 <body>
     <script>
-        let originalArray = [1, 2, 3, 4, 5, 6]
-        for (let i = 0; i < originalArray.length; i++) {
-            originalArray[i] += 9;
+        // change the number of original array
+
+        // let originalArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        // originalArray.splice(0, originalArray.length, 13, 14, 15, 16, 17, 18, 19, 20);
+
+        // document.write(originalArray);
+
+        //change the string value
+
+        // let originalArray=["ankit","kishan","suryanshu","ravneesh","aman"];
+
+        // originalArray.splice(0,originalArray.length,"hello","ankit","deepak","prakash","raj");
+
+        // document.write(originalArray)
+
+
+        // ---------------------------------------------object-----------------------------
+        let car ={
+            brand:"toyota",
+            model:"camry",
+            year:2023,
+            color:"white",
+            start:function(num){
+                // console.log("hyy i am starting my work",this) 
+                // console.log("hyy i am starting my work.....",this.brand)
+                // console.log("hyy i am starting my work...",this.year)
+                // console.log("hyy i am starting my work",this.Array)
+                // console.log("hyy i am starting my work",this.Array.reverse())
+                // console.log("hyy i am starting my work",this.Array.length)
+                // console.log("hyy i am starting my work",this.Array[3])    
+            },
+            Array:[10,12,14,16,18,20]
         }
-        console.log(originalArray);
+        car.start()
+
     </script>
 
 </body>
